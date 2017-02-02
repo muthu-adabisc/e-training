@@ -1,0 +1,14 @@
+name = "Gigya - Customer Identity Management - DS"
+description = "Allows sites to utilize the Gigya DS API"
+package = Gigya
+core = 7.x
+php = 5.2
+
+dependencies[] = gigya
+
+; Information added by Drupal.org packaging script on 2017-01-26
+version = "7.x-5.5"
+core = "7.x"
+project = "gigya"
+datestamp = "1485465542"
+

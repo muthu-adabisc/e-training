@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file module used for learning
+ */
+
+/**
+ * Implements hook_block_info().
+ */
+
+/**
+ * Implements hook_block_view().
+ */
+
+function hook_form_alter(&$form, &$form_state,$form_id) {
+	if($form['#form_id'] == 'user_register_form') {
+		unset($form['name']['#description']); 
+		unset($form['mail']['#description']); 
+	}
+}

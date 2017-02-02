@@ -1,0 +1,4 @@
+name = Hook Module
+description = Hook module for learning.
+core = 7.x
+version = 7.x-1.x

@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * @file module used for learning
+ */
+
+/**
+ * Implements hook_block_info().
+ */
+function support_block_info() {
+  $blocks['registration'] = array(
+    'info' => t('Registration Region'),
+    'cache' => DRUPAL_NO_CACHE,
+    );
+  $blocks['hybridauth_blk_wgt'] = array(
+    'info' => t('Hybridauth Region'),
+    'cache' => DRUPAL_NO_CACHE,
+    );
+  
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function support_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+    case 'registration':
+    $block['subject'] = t('Create New Account');
+    $form = drupal_get_form('user_register_form');
+    $block['content'] = render($form);
+    break;
+    
+    case 'hybridauth_blk_wgt':  
+    $element['#type'] = 'hybridauth_widget';
+    $block['subject'] = t('Create New Account');
+    $block['content'] = drupal_render($element);
+    break;
+  }
+  return $block;
+}

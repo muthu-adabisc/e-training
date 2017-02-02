@@ -1,0 +1,14 @@
+name = Gigya panels integration
+description = Gigya Panels Integration
+dependencies[] = ctools
+dependencies[] = panels
+dependencies[] = gigya
+package = Gigya
+core = 7.x
+
+; Information added by Drupal.org packaging script on 2017-01-26
+version = "7.x-5.5"
+core = "7.x"
+project = "gigya"
+datestamp = "1485465542"
+

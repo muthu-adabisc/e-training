@@ -1,0 +1,130 @@
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+.logo {
+    width: auto;
+    height: auto;
+    padding: 8px 15px;
+    margin-right: 0;
+}
+
+.navbar-header .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding-left: 30px;
+}
+
+.navbar-collapse{
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    top: 100px;
+}
+
+.banner-head {
+    width: auto;
+    height: auto;
+}
+
+.custom-padding {
+    padding-bottom: 25px;
+}
+
+.register-footer {
+    clear: both;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+.footer-link-ul li {
+    padding-right: 10px;
+}
+
+.footer-link-ul li a {
+    font-size: 16px;
+}
+
+.footer-link-ul {
+    padding: 0 15px;
+}
+
+.footer-link-1 {
+    margin: 0;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+}
+
+.link-2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 0 !important;
+}
+
+.link-3 {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    padding-top: 0 !important;
+}
+
+.footer-image {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+}
+
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
